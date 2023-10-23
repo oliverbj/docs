@@ -63,7 +63,7 @@
     {
       "group": "General",
       "pages": [
-        "general/navigating",
+        "general/navigation",
         "general/shortcuts",
         "general/search",
         "general/process"
