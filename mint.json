@@ -61,6 +61,14 @@
       ]
     },
     {
+        "group": "Navigating",
+        "pages": [
+            "navigating/navigating",
+            "navigating/shortcuts",
+            "navigating/search"
+        ]
+    },
+    {
       "group": "Essentials",
       "pages": [
         "essentials/markdown",
@@ -86,6 +94,5 @@
       ]
     }
   ],
-  "footerSocials": {
-  }
+  "footerSocials": {}
 }
