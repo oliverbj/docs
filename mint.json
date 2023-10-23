@@ -61,12 +61,12 @@
       ]
     },
     {
-        "group": "Navigating",
-        "pages": [
-            "navigating/navigating",
-            "navigating/shortcuts",
-            "navigating/search"
-        ]
+      "group": "General",
+      "pages": [
+        "navigating/navigating",
+        "navigating/shortcuts",
+        "navigating/search"
+      ]
     },
     {
       "group": "Essentials",
