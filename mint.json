@@ -63,9 +63,10 @@
     {
       "group": "General",
       "pages": [
-        "navigating/navigating",
-        "navigating/shortcuts",
-        "navigating/search"
+        "general/navigating",
+        "general/shortcuts",
+        "general/search",
+        "general/process"
       ]
     },
     {
