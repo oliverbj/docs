@@ -27,37 +27,37 @@ This is a very brief and high-level overview that shows the lifecycle of a shipm
 # Related Parties
 A shipment / consolidation has multiple different parties involved. This can for example be the shipper, consignee, local client, pickup transport company and so on.  For billing- and data quality purposes it is very important that the parties are entered correctly and are reflecting the real-life shipment.
 
-## Local client vs Shipper vs Consignee
+### Local client vs Shipper vs Consignee
 By design, the Local client will default based on Direction EXP /IMP and the "Shipper Entity" (this can be overridden if required but may then have some negative implications). Essentially a Local client is always either a Shipper or a Consignee (very rarely a Forwarder - very odd cases only).
 
 Below are two examples (one for export and one for import). The examples are shown on booking level, but the same mechanism apply on shipments.
 You should be aware that if manipulated, your own billing defaults and that of your NTG partner will likely not work as intended.
 
-### Example for Export
+#### Example for Export
 In the below example, "Local Client" will default to the Danish shipper entity when you save the booking.
 
 ![Example for Export](image-1.png)
 
-### Example for Import
+#### Example for Import
 In the below example, the "Local Client" will default to the Danish consignee entity when you save the booking. 
 
 ![Example for Import](image-2.png)
 
-## Forwarder/Agents
+### Forwarder/Agents
 A forwarder/agent is not a local client and should not be entered as such. A forwarder/agent is a partner we bill (also known as a "Transport Client"). Therefore, the only place a Forwarder/Agent should appear in a Shipment will be on either a Notify Party or the Overseas Agent in the Billing Screen.
 
 ## Controlling Office
 There is a dimension of ownership of files and "who does what" in terms of origin and destination offices.
 
 
-## CargoWise Bookings (CWG)
+### CargoWise Bookings (CWG)
 The following table shows the responsible parties and the split between the controlling- and the nominated office when two CargoWise One countries are involved in a booking.
 
 |              | Controlling Office                                        | Nominated Office  |
 |--------------|------------------------------------------------------------|-------------------|
 | Export       | Create Booking / Convert to Shipment / Send Pre-alert      | Complete Service  |
 
-## CargoWise Bookings (Non-CWG)
+### CargoWise Bookings (Non-CWG)
 The following table shows the responsible parties and the split between the controlling- and the nominated office when we are working with external agents.
 
 |              | CWG/NTG (Controlled)                                      | Agent             |
