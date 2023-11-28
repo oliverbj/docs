@@ -64,7 +64,6 @@
       "group": "General",
       "pages": [
         "general/navigation",
-        "general/shortcuts",
         "general/search",
         "general/process",
         "general/claims"
